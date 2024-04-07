@@ -176,7 +176,7 @@ end
 function Library.New()
 	
 	local FrameMain = CreateObject("Frame", {
-		Name = "FrameMain",	Parent = Library.Core,	BackgroundColor3 = Color3.fromRGB(14, 13, 13),	BackgroundTransparency = 0.1,	ClipsDescendants = true,	Position = UDim2.new(0.0050041526556015015,0,0.42098766565322876,0),	Size = UDim2.new(0,565,0,419),	Transparency = 0.10000000149011612,
+		Name = "FrameMain",	Parent = Library.Core,	BackgroundColor3 = Color3.fromRGB(14, 13, 13),	BackgroundTransparency = 0.1,	ClipsDescendants = true,	Position = UDim2.new(0.0050041526556015015,0,0.42098766565322876,0),	Size = UDim2.new(0,565,0,462),	Transparency = 0.10000000149011612,
 	})
 	local UICorner = CreateObject("UICorner", {
 		Parent = FrameMain,	CornerRadius = UDim.new(0,6),
