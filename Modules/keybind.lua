@@ -3,6 +3,7 @@ local Keybind = {
     Assigned = {}
 }
 
+
 local UserInputService = game:GetService("UserInputService")
 
 local Thread, NewInputConnection = task.spawn, UserInputService.InputBegan
@@ -17,7 +18,7 @@ end
 
 function Keybind:Functions(Input)
     for i,v in pairs(Keybind.Assigned) do
-        if v.Keybind == Input.KeyCode then
+        if v.Keybind == Input.KeyCode or v.Keybind == Input.UserInputType then
             return v.Action()
         end
     end
